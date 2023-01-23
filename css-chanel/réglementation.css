@@ -1,0 +1,20 @@
+.stitre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 35px;
+}
+
+.stitre .mytit {
+  color: #286C50;
+  text-align: center;
+}
+
+.stitre .mypa {
+  color: #000000;
+}
+/*# sourceMappingURL=réglementation.css.map */

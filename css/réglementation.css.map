@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../Sass-chanel/réglementation.scss"
+    ],
+    "names": [],
+    "file": "réglementation.css"
+}

@@ -1,0 +1,117 @@
+a {
+    color: white;
+    
+    
+  }
+  
+
+  .bgl{
+    background-color: #286C50;
+  }
+  
+  .shfooter .collapse {
+    display: inherit;
+  }
+  .icon1{
+    color: white;
+  }
+  .icon2{
+    color: white;
+  }
+  .icon3{
+    color: white;
+  }
+  .icon4{
+    color: white;
+  }
+  .icon5{
+    color: white;
+  }
+  .loc{
+    color: white;
+  }
+  .ad{
+    display: flex;
+    flex: row;
+
+  }
+  .bp{
+    color: white;
+  }
+  @media (max-width: 767px) {
+    .shfooter ul {
+      margin-bottom: 0;
+    }
+   
+    .shfooter .collapse {
+      display: none;
+    }
+   
+    .shfooter .collapse.show {
+      display: block;
+    }
+   
+    .shfooter .title .fa-angle-up,
+    .shfooter .title[aria-expanded="true"] .fa-angle-down {
+      display: none;
+    }
+   
+    .shfooter .title[aria-expanded="true"] .fa-angle-up {
+      display: block;
+    }
+   
+    .shfooter .navbar-toggler {
+      display: inline-block;
+      padding: 0;
+    }
+    .dec{
+        display: none;
+      }
+      .ser{
+        display: none;
+      }
+      .ai{
+        display: none;
+      }
+      .con{
+        display: none;
+      }
+  }
+   
+  .resize {
+    text-align: center;
+  }
+  .resize {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+  }
+  
+  /*RESIZESCREEN ANIMATION*/
+  .fa-angle-double-right {
+    animation: rightanime 1s linear infinite;
+  }
+   
+  .fa-angle-double-left {
+    animation: leftanime 1s linear infinite;
+  }
+  @keyframes rightanime {
+    50% {
+      transform: translateX(10px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(10px);
+      opacity: 0;
+    }
+  }
+  @keyframes leftanime {
+    50% {
+      transform: translateX(-10px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(-10px);
+      opacity: 0;
+    }
+
+  }

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,MAAM,EAAE,IAAI;CAUf;;AAbD,AAII,OAJG,CAIH,MAAM,CAAA;EACF,KAAK,EANJ,OAAO;EAOR,UAAU,EAAE,MAAM;CACrB;;AAPL,AAQI,OARG,CAQH,KAAK,CAAA;EACD,KAAK,EAVe,OAAO;CAa9B",
+    "sources": [
+        "../Sass-chanel/réglementation.scss"
+    ],
+    "names": [],
+    "file": "réglementation.css"
+}

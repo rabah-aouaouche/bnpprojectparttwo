@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="predom.css"> -->
+  <link rel="stylesheet" href="predom.css">
+  
+  <title>Pré-domiciliation des opérations de commerce extérieur</title>
+ 
+</head>
+
+<body >
+
+  <header>
+    <!--Début de la Barre de navigation -->
+    <nav class="navbar navbar-expand-lg bg-white bordure "  >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="./imageprédom/logo-banque.svg" alt="Bootstrap" width="165" height="34"><h6>La banque d'un monde qui change</h6>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                NOS SERVICES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="particulier1.html">Particuliers</a></li>
+                <li><a class="dropdown-item" href="./notfound.html">Professionels</a></li>
+                <li><a class="dropdown-item" href="./notfound.html">Entreprises</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./notfound.html">Autre</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="predom.html">PRÉ-DOMICILIATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="reglémentation.html">RÉGLEMENTATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="test.html">NOUS CONNAÎTRE</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 rsrh" type="search" placeholder="Recherche" aria-label="Search">
+            <button class="btn btn-outline-success rbtn-search" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="nbut">
+      <!-- button modal 1 accès aux comptes -->
+      <button class="nrbut" type="button" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-box-arrow-in-right"></i> Accès aux comptes</button>
+            <!-- Modal accès aux comptes -->
+            <div class="modal modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title text-white fs-5 " id="exampleModalLabel">Accès aux comptes</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+
+                    <div class="espace-client">
+                      <h6>ACCÉDER À VOTRE ESPACE<br>CLIENT</h6>
+                      <div class="mb-3 row">
+                          <div class="col-sm-10">
+                            <input type="email"  class="form-control" id="staticEmail" placeholder="Votre numéro client:">
+                          </div>
+                      </div>
+                      <div class="mb-3 row">
+                          <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Saisir votre Mot de passe:">
+                          </div>
+                      </div>
+                      <button type="button" class="btn btn-success">valider</button>  
+                    </div>
+
+                    <div class="espace-client-demo">
+                      <h5>Bienvenue sur votre nouvel accès de banque en ligne</h5>
+                      <h6>Espace sécurisé BNP Paribas EL Djazaïr:</h6>
+                      <ul>
+                        <li>
+                          <a style="text-decoration: none;" href="">Aide à la connexion et sécurité internet</a>
+                        </li>
+                        <li>
+                          <a style="text-decoration: none;" href="">FAQ</a>
+                        </li>
+                      </ul>
+                        <h6>Démonstration:</h6>
+                        <div class="demonstration">
+                          <div class="particulier-and-icon">
+                            <i class="bi bi-person-check-fill"></i>
+                            <a style="text-decoration: none;" href="#">Particulier</a>
+                          </div>
+                          <div class="professionel-and-icon">
+                            <i class="bi bi-person-vcard"></i>
+                            <a style="text-decoration: none;" href="/notfound.html">Professionel</a>
+                          </div>
+                          <div class="entreprise-and-icon">
+                            <i class="bi bi-building-fill"></i>
+                            <a style="text-decoration: none;" href="./notfound.html">Entreprise</a>
+                          </div>
+                        </div>
+
+                        <h6>Des questions : Contactez le Direct Call:</h6>
+                        <li>
+                          <a style="text-decoration: none;" href="">formulaire en ligne</a>
+                        </li>
+                        <li>
+                          <a style="text-decoration: none;" href="">numéros</a>
+                        </li>
+                    </div>
+                    
+
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          <!-- End Modal accès aux comptes -->
+      <!-- button modal 2 devenir client -->      
+      <a href="devenir-client.html"><button class="nrbut" type="button"><i class="bi bi-person-fill"></i>Devenir client</button></a>
+    </div>
+    <!--Fin de la Barre de navigation -->
+  </header>
+  <br>
+  <br>
+  
+
+<div class="container-fluid d-flex height-100 p-0 ins">
+  <div class="container-fluid w-50  bg-white d-flex justify-content-center">
+    <h1 class="align-self-center w-100 text-center ti1">Pré-domiciliation <br>des opérations <br> de commerce <br> extérieur</h1>
+  </div>
+  <div class="container-fluid  d-flex w-30  p-3  bg-white préé ">
+    <div class="container d-flex justify-content-center imp  bg-white h-100 ">
+      
+        <img class="img-fluid align-self-end pré " src="./imageprédom/predomm.png">
+        
+      
+    </div>
+    <div class="container shadow-lg p-3 bg-light h-100 rounded-4 f">
+      <div class=" d-flex flex-column align-item-start ">
+      <img class="img-fluid aut align-self-center mb-auto " src="./imageprédom/aut.svg">
+      </div>
+      <form class="form-horizontal" action="#" onsubmit="form1()">
+        <div class="form-group frm">
+          <label class="control-label " for="email">Nom d'utilisateur</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control"  id="num" required id="texte" placeholder="Enter 11 premiers chiffres de votre compte bancaire">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label " for="pwd">Mot de passe</label>
+          <div class="col-sm-10">
+            <input type="password"  class="form-control" required id="pwd" placeholder="Enter votr mot de passe ">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label><input type="checkbox"> Se souvenir de moi</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default butt" value="Verify">Se connecter</button>
+            <a href="/notfound.html" class="text-dark">Mot de passe oublié?</a>
+          </div>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+
+</div>
+<br>
+<br>
+
+  <h2 class="align-self-center w-100 text-center ti2">Première visite ?</h2><br>
+  <div class="container-fluid d-flex height-100 p-0 prof">
+    <div class="container   bg-light d-flex ">
+      <br>
+       
+      <div class=" d-flex flex-column align-item-start ">
+        <h3 class=" align-self-center w-100  ti3 p-5">Pour les Entreprises et les Professionnels</h3>
+        <img class="img-fluid align-self-center w-100  profi " src="./imageprédom/prof.svg">
+        <br>
+        <p class=" text-lg-center p-3  pprofi">
+          Pour vous inscrire, vous devez vous munir de votre numéro d’Identification Fiscale,
+          du numéro de Registre du Commerce ainsi que votre numéro de compte bancaire sur 11 chiffres.
+        </p>
+      </div>
+      
+    </div>
+    <div class="container cnp  d-flex  bg-light ">
+      <br>
+      <div class=" d-flex flex-column align-item-start ">
+        <h3 class=" align-self-center w-100 text-center  p-5 ">Pour les Particuliers</h3>
+        <img class="img-fluid align-self-center w-100  part " src="./imageprédom/parti (2).svg">
+        <br>
+        <p class=" text-lg-center p-3  ppart">
+        Pour vous inscrire, vous devez vous munir de votre numéro de compte bancaire sur 11 chiffres.
+      </p>
+      </div>
+      
+      
+      
+      
+    </div>
+    
+    </div>
+    <!--<div class="container d-flex justify-content-center p-5 bg-white  sub">
+     <div class="form-group ">
+       <div class="col-sm-offset-2 col-sm-10 p-5">
+        <button type="inscription" class="btn btn-default but2" >inscription</button>
+       </div>
+   
+      </div>
+    </div>-->
+    <br>
+    <!-- Trigger/Open The Modal -->
+<button  class="but3" id="myBtn">Inscription</button>
+
+<!-- The Modal -->
+
+<div id="myModal" class="modal ">
+
+  <!-- Modal content -->
+  <div class="modal-content" >
+    <span class="close">&times;</span>
+    <h3 class="tit">Demande d'inscription au portail</h3>
+
+<div>
+  <form class="form" action="/action_page.php" onsubmit="return form2()" method="post" >
+    <label for="Nature-client">Nature client</label>
+    <select id="Sélectionner-une-valeur" name="Sélectionner une valeur">
+      <option value="Sélectionner-une-Sélectionner une valeurvaleur">Sélectionner une valeur</option>
+      <option value="Entreprises/Professionnels">Entreprises/Professionnels</option>
+      <option value="Particuliers">Particuliers</option>
+    </select>
+    <br>
+    <label for="nif">Numéro d'identification fiscale </label>
+    <input class="in" type="text" id="nif" required name="Numéro d'identification fiscale" placeholder=" Enter le NIF 15 caractères ..">
+    <br>
+    <label for="nrc">Numéro de registre de commerce </label>
+    <input class="in" type="text" required id="nrc" name="nrc" placeholder=" Enter le NRC..">
+    <br>
+    <label for="ncb">Numéro de compte bancaire </label>
+    <input class="in" type="text" required id="ncb" name="ncb" placeholder=" Enter le Numéro de compte bancaire..">
+    <br>
+    <label for="nrs">Nom et raison social </label>
+    <input class="in" type="text" required id="nrs" name="nrs" placeholder=" Enter le Nom et raison social..">
+    <br>
+    <label for="email">Votre adresse E-Mail</label>
+    <input class="in" type="email" required id="email" name="email" placeholder=" Enter votre adresse E-Mail">
+    <br>
+    <br>
+    
+     <div>
+       <button class= "but4" id="myBtn" >S'inscrire</button>
+       <a href="./predom.html" class="text-dark">Retour à votre page de connexion </a>
+     </div>
+  </form>
+</div>
+  </div>
+
+</div>
+
+  </div>
+  <br>
+<div class="qs justify-content-center d-flex-column  text-center">
+  
+  <div><h4 class ="qst">Des questions : <br>Contactez le Direct Call</h4><br>
+  </div>
+  <div>
+    <a href="./notfound.html" class="text1">à l'aide du formulaire en ligne</a><br>
+    <a href="./notfound.html" class="text2">par téléphone aux numéros</a>
+  </div>
+  
+
+</div>
+
+
+   <!--footer-->
+  <footer id="footer" class=" mt-5 bgl text-white d-flex-column text-center">
+    <hr class="mt-0">
+    <!--Social buttons-->
+    <div class="text-center">
+      <h4>Suivez-nous sur</h4>
+      <ul class="list-unstyled list-inline">
+        <li class="list-inline-item">
+          <a href="https://fr-fr.facebook.com/BNPParibasElDjazair/" class="sbtn btn-large mx-1 " title="Facebook">
+            <i class="fab fa-facebook-square fa-2x icon1" ></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://dz.linkedin.com/company/bnp-paribas-eldjaza%C3%AFr" class="sbtn btn-large mx-1" title="Linkedin">
+            <i class="fab fa-linkedin fa-2x icon2"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#!" class="sbtn btn-large mx-1" title="Twitter">
+            <i class="fab fa-twitter-square fa-2x icon3"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.youtube.com/@bnpparibaseldjazair7915" class="sbtn btn-large mx-1" title="Youtube">
+            <i class="fab fa-youtube-square fa-2x icon4"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="https://www.instagram.com/explore/locations/1023108008/bnp-paribas-el-djazair/?hl=fr" class="sbtn btn-large mx-1" title="Instagram">
+              <i class="fab fa-instagram fa-2x icon5"></i>
+            </a>
+          </li>
+      </ul>
+    </div>
+    <!--/.Social buttons-->
+    <hr class="mb-0">
+    <!--Footer Links-->
+    <div class="container text-left text-md-center">
+      <div class="row">
+        <!--First column-->
+        <div class="col-md-3 mx-auto shfooter">
+          <h5 class="my-2 font-weight-bold d-none d-md-block">Découvrir <br> BNP Paribas El-Djazair</h5>
+          <div class ="dec">
+          <p>
+            <a href="./notfound.html" class="text-white">Pourquoi devenir un client</a>
+          </p>
+          <p>
+            <a href="./notfound.html" class="text-white">Rencontrons-nous</a>
+          </p>
+          <p>
+            <a href="./notfound.html" class="text-white">Trouver une agence</a>
+          </p>
+        </div>
+          <div class="d-md-none title" data-target="#Product" data-toggle="collapse">
+            <div class="mt-3 font-weight-bold">Découvrir
+              <div class="float-right navbar-toggler">
+                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-up"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="list-unstyled collapse" id="Product">
+            <li><a href="./notfound.html" class="text-white">Pourquoi devenir un client</a></li>
+            <li><a href="./notfound.html" class="text-white">Rencontrons-nous</a></li>
+            <li><a href="./notfound.html" class="text-white">Trouver une agence</a></li>
+          </ul>
+        </div>
+        <!--/.First column-->
+        <hr class="clearfix w-100 d-md-none mb-0">
+        <!--Second column-->
+        <div class="col-md-3 mx-auto shfooter">
+          <h5 class="my-2 font-weight-bold d-none d-md-block">Services</h5>
+          <div class="ser">
+          <p>
+            <a href="./notfound.html" class="text-white">Particulier</a>
+          </p>
+          <p>
+            <a href="./notfound.html" class="text-white">Professionnel</a>
+          </p>
+          <p>
+            <a href="./notfound.html" class="text-white">Entreprise</a>
+          </p>
+          <p>
+            <a href="./predom.html" class="text-white">Pré-domiciliation</a>
+          </p>
+        </div>
+          <div class="d-md-none title" data-target="#Company" data-toggle="collapse">
+            <div class="mt-3 font-weight-bold">Services
+              <div class="float-right navbar-toggler">
+                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-up"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="list-unstyled collapse" id="Company">
+            <li><a href="./notfound.html" class="text-white">Particulier</a></li>
+            <li><a href="./notfound.html" class="text-white">Professionnel</a></li>
+            <li><a href="./notfound.html" class="text-white">Entreprise</a></li>
+            <li><a href="./predom.html" class="text-white">Pré-domiciliation</a></li>
+          </ul>
+        </div>
+        <!--/.Second column-->
+        <hr class="clearfix w-100 d-md-none mb-0">
+        <!--Third column-->
+        <div class="col-md-3 mx-auto shfooter">
+            <h5 class="my-2 font-weight-bold d-none d-md-block">Aide</h5>
+            <div class="ai">
+            <p>
+              <a href="./notfound.html" class="text-white">Perte et vol (ou utilisation frauduleuse)</a>
+            </p>
+            <p>
+              <a href="./notfound.html" class="text-white">Problèmes d’accès à vos comptes</a>
+            </p>
+            <p>
+              <a href="./notfound.html" class="text-white">Problèmes liés à la carte</a>
+            </p>
+            <p>
+              <a href="/notfound.html" class="text-white">F.A.Q</a>
+            </p>
+        </div>
+          <div class="d-md-none title" data-target="#Resources" data-toggle="collapse">
+            <div class="mt-3 font-weight-bold">Aide
+              <div class="float-right navbar-toggler">
+                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-up"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="list-unstyled collapse" id="Resources">
+            <li><a href="./notfound.html" class="text-white">Perte et vol (ou utilisation frauduleuse)</a></li>
+            <li><a href="./notfound.html"class="text-white">Problèmes d’accès à vos comptes</a></li>
+            <li><a href="./notfound.html"class="text-white">Problèmes liés à la carte</a></li>
+            <li><a href="/notfound.html"class="text-white">F.A.Q</a></li>
+          </ul>
+        </div>
+        <!--/.Third column-->
+        <hr class="clearfix w-100 d-md-none mb-0">
+        <!--Fourth column-->
+        <div class="col-md-3 mx-auto shfooter">
+          <h5 class="my-2 font-weight-bold d-none d-md-block">Contact</h5>
+          <div class="con">
+          <div class="ad">
+            <i class="fa-solid fa-location-dot loc"></i>
+          <p>
+            <a href="http://bitly.ws/yX2Q" class="text-white">BNP Paribas EL Djazair Quartier d’Affaires d’Alger, Lot 1 N° I.03, Bab Ezzouar,
+                16024 Alger</a>
+          </p>
+        </div>
+        <div class="tl">
+          <p>
+            <a href="./notfound.html" class="text-white">+213 21 98 13 30</a>
+          </p>
+        </div>
+         <div class="fa">
+          <p>
+            <a href="./notfound.html" class="text-white">+213 23 92 40 68</a>
+          </p>
+        </div>
+        </div>
+          <div class="d-md-none title" data-target="#Get-Help" data-toggle="collapse">
+            <div class="mt-3 font-weight-bold">Contact
+              <div class="float-right navbar-toggler">
+                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-up"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="list-unstyled collapse" id="Get-Help">
+            <li><a href="http://bitly.ws/yX2Q" class="text-white">BNP Paribas EL Djazair Quartier d’Affaires d’Alger, Lot 1 N° I.03, Bab Ezzouar,
+                16024 Alger</a></li>
+            <li><a href="./notfound.html" class="text-white">+213 21 98 13 30</a></li>
+            <li><a href="./notfound.html" class="text-white">+213 23 92 40 68</a></li>
+    
+          </ul>
+        </div>
+        <!--/.Fourth column-->
+      </div>
+    </div>
+    <!--/.Footer Links-->
+    <hr class="mb-0">
+    <!--Copyright-->
+    <div class="py-3 text-center">
+      Copyright
+      <script>
+        document.write(new Date().getFullYear())
+      </script> <a  href="./notfound.html" class="text-white" >BNP Paribas El Djazair </a> 
+    </div>
+    <!--/.Copyright-->
+  </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      
+      </script>
+      <script>function form1()                                    
+        { 
+            const num = document.querySelector('#num')                 
+            var password = document.querySelector('#pwd')  
+            
+            if (num.value == "" && nom.value<11 )                          
+            { 
+            alert("Enter 11 premiers chiffres de votre compte bancaire"); 
+            num.focus(); 
+            return false; 
+            }    
+           else if(num.value.length !== 11) {
+            alert('Entrer un numéro valide')
+           }
+            if (password.value == "")                        
+            { 
+                alert("Saisissez votre mot de passe"); 
+                password.focus(); 
+                return false; 
+            }    
+           
+            return true; 
+        }
+        function form2()
+        {
+          const num1 = document.querySelector('#nif')
+          const num2 = document.querySelector('#ncr')
+          const num3 = document.querySelector('#ncb')
+          var name4 = document.forms["form"]["Nom"];
+          var email = document.forms["form"]["Email"];
+          if (num1.value == "" && nom.value<15 )                          
+            { 
+            alert("Enter le NIF 15 caractères"); 
+            num1.focus(); 
+            return false; 
+            }    
+           if(num1.value.length !== 15) {
+            alert('15')
+           }
+          if (email.value == "") {
+          alert("Mettez une adresse email valide.");
+          email.focus();
+          return false;
+        }
+        if (num2.value == "" && nom.value<11 )                          
+            { 
+            alert("Enter le NRC "); 
+            num2.focus(); 
+            return false; 
+            }    
+           if(num2.value.length !== 11) {
+            alert('11')
+           }
+          
+           if (num3.value == "" && nom.value<15 )                          
+            { 
+            alert("Enter le NRB "); 
+            num3.focus(); 
+            return false; 
+            }    
+           if(num3.value.length !== 15) {
+            alert('15')
+           }
+
+           if (name.value == "") {
+          alert("Mettez votre nom.");
+          name.focus();
+          return false;
+        }
+          
+          if (email.value == "") {
+          alert("Mettez une adresse email valide.");
+          email.focus();
+          return false;
+        }
+        if (email.value.indexOf("@", 0) < 0) {
+          alert("Mettez une adresse email valide.");
+          email.focus();
+          return false;
+        }
+        if (email.value.indexOf(".", 0) < 0) {
+          alert("Mettez une adresse email valide.");
+          email.focus();
+          return false;
+        }
+        $(document).ready(function() {
+    $('select').material_select();
+  });
+        }
+        
+        </script>
+</body>
+
+</html>

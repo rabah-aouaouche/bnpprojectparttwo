@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style\style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <!--Début de la Barre de navigation -->
+    <nav class="navbar navbar-expand-lg bg-white bordure "  >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo-banque.svg" alt="Bootstrap" width="165" height="34"><h6>La banque d'un monde qui change</h6>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                NOS SERVICES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="particulier1.html">Particuliers</a></li>
+                <li><a class="dropdown-item" href="#">Professionels</a></li>
+                <li><a class="dropdown-item" href="#">Entreprises</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Autre</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="predom.html">PRÉ-DOMICILIATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="reglémentation.html">RÉGLEMENTATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="test.html">NOUS CONNAÎTRE</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 rsrh" type="search" placeholder="Recherche" aria-label="Search">
+            <button class="btn btn-outline-success rbtn-search" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="nbut">
+      <!-- button modal 1 accès aux comptes -->
+      <button class="nrbut" type="button" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-box-arrow-in-right"></i> Accès aux comptes</button>
+            <!-- Modal accès aux comptes -->
+            <div class="modal modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title text-white fs-5 " id="exampleModalLabel">Accès aux comptes</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+
+                    <div class="espace-client">
+                      <h6>ACCÉDER À VOTRE ESPACE<br>CLIENT</h6>
+                      <div class="mb-3 row">
+                          <div class="col-sm-10">
+                            <input type="email"  class="form-control" id="staticEmail" placeholder="Votre numéro client:">
+                          </div>
+                      </div>
+                      <div class="mb-3 row">
+                          <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Saisir votre Mot de passe:">
+                          </div>
+                      </div>
+                      <button type="button" class="btn btn-success">valider</button>  
+                    </div>
+
+                    <div class="espace-client-demo">
+                      <h5>Bienvenue sur votre nouvel accès de banque en ligne</h5>
+                      <h6>Espace sécurisé BNP Paribas EL Djazaïr:</h6>
+                      <ul>
+                        <li>
+                          <a style="text-decoration: none;" href="">Aide à la connexion et sécurité internet</a>
+                        </li>
+                        <li>
+                          <a style="text-decoration: none;" href="">FAQ</a>
+                        </li>
+                      </ul>
+                        <h6>Démonstration:</h6>
+                        <div class="demonstration">
+                          <div class="particulier-and-icon">
+                            <i class="bi bi-person-check-fill"></i>
+                            <a style="text-decoration: none;" href="#">Particulier</a>
+                          </div>
+                          <div class="professionel-and-icon">
+                            <i class="bi bi-person-vcard"></i>
+                            <a style="text-decoration: none;" href="#">Professionel</a>
+                          </div>
+                          <div class="entreprise-and-icon">
+                            <i class="bi bi-building-fill"></i>
+                            <a style="text-decoration: none;" href="#">Entreprise</a>
+                          </div>
+                        </div>
+
+                        <h6>Des questions : Contactez le Direct Call:</h6>
+                        <li>
+                          <a style="text-decoration: none;" href="">formulaire en ligne</a>
+                        </li>
+                        <li>
+                          <a style="text-decoration: none;" href="">numéros</a>
+                        </li>
+                    </div>
+                    
+
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          <!-- End Modal accès aux comptes -->
+      <!-- button modal 2 devenir client -->      
+      <a href="devenir-client.html"><button class="nrbut" type="button"><i class="bi bi-person-fill"></i>Devenir client</button></a>
+    </div>
+    <!--Fin de la Barre de navigation -->
+  </header>
+  <!-- +++++++++++++++++++++++++++++slaider+++++++++++++++++++++++++++ -->
+    <section class="ihome">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousal-controls">
+          <div class="carousel-indicators ibtns">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-image: url('./img/pbnpi3.jpg');"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2" style="background-image: url(./img/bnppi1.jpg);"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3" style="background-image: url(./img/pbnpi2.jpg);"></button>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <img src="./img/leftarrow.png" alt="arrow">
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <img src="./img/rightarrow.png" alt="arrow">
+          </button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url('./img/pbnpi3.jpg');" >
+            <div class="container">
+              <h2>CONNECTE SUR NOS </br> GUICHETS</br> AUTOMATIQUES</h2>
+              <p>Vous pouvez déposer vos billets et vos chèques</p>
+              <a target="_blank" href="https://www.bnpparibas.dz/professionnels/depot-cash-remise-de-cheque/"><div class="but">
+                <button class="ibut" type="button">EN SAVOIR PLUS</button>
+              </div></a>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(./img/bnppi1.jpg);">
+            <div class="container">            
+              <h2>FABRIKADEMY</h2>
+              <p>Découvrez votre formation développeur Web et web mobil</p>
+              <a target="_blank" href="https://www.bnpparibas.dz/fabrikademy-2/"><div class="but">
+                <button class="ibut" type="button">EN SAVOIR PLUS</button>
+              </div></a>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(./img/pbnpi2.jpg);">
+            <div class="container">
+              <h2>Recharge téléphonique</h2>
+              <p>Disponible sur tous nos guichets automatiques</p>
+              <a target="_blank" href="https://www.bnpparibas.dz/recharge-mobile/"><div class="but">
+                <button class="ibut" type="button">EN SAVOIR PLUS</button>
+              </div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- +++++++++++++++++++++++++++++service client+++++++++++++++++++++++++++ -->
+      <section id="iservice" class="service">
+        <div class="servicetext">
+          <h1>Nous Services</h1>
+          <p>BNP Paribas El Djazaïr est la filiale algérienne du Groupe BNP Paribas, récompensé à plusieurs reprises par la presse spécialisée ou la profession</p>
+        </div>
+        <div class="boxes">
+          <div class="box" onclick=window.location.href="ovrer_compt.html">
+            <div class="inner-box">
+              <span><i class="bi bi-person-check"></i></span>
+              <h3>OUVRIR UN COMPTE</h3>
+            </div>
+            <p>
+              Ouvrez un compte en toute simplicité et sécurité
+            </p>
+          </div>
+          <div class="box" onclick=window.location.href="https://www.bnpparibas.dz/recharge-mobile/">
+            <div class="inner-box">
+              <span><i class="bi bi-credit-card"></i></span>
+              <h3>CHOISIR UNE CARTE</h3>
+            </div>
+            <p>
+              Sélectionnez votre carte selon votre besoin
+            </p>
+          </div>
+       <div class="box" onclick=window.location.href="https://www.bnpparibas.dz/recharge-mobile/">
+            <div class="inner-box">
+              <span><i class="bi bi-calendar-week"></i></span>
+              <h3>GERER VOS COMPTES</h3>
+            </div>
+            <p>
+              Consultez et réalisez vos opérations bancaires à distance
+            </p>
+          </div>
+         <div class="box"onclick=window.location.href="https://www.bnpparibas.dz/recharge-mobile/">
+            <div class="inner-box">
+              <span><i class="bi bi-cash-stack"></i></span>
+              <h3>EMPRUNTER</h3>
+            </div>
+            <p>
+              Financez votre bien immobilier ou vos projets
+            </p>
+          </div>
+          <div class="box" onclick=window.location.href="https://www.bnpparibas.dz/recharge-mobile/">
+            <div class="inner-box">
+              <span><i class="bi bi-pie-chart"></i></span>
+              <h3>EPARGNER</h3>
+            </div>
+            <p>
+              Mettez de l’argent de côté pour préparer vos projets
+            </p>
+          </div>
+          <div class="box" style="justify-self: center;" onclick=window.location.href="https://www.bnpparibas.dz/recharge-mobile/">
+            <div class="inner-box">
+              <span><i class="bi bi-house-heart"></i></span>
+              <h3>PROTECTION</h3>
+            </div>
+            <p>
+              Assurez votre famille, vos biens et vous-mêmes
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- +++++++++++++++++++++++++++++devenir client+++++++++++++++++++++++++++ -->
+      <section class="host">
+        <h2>POURQUOI DEVENIR CLIENT </br><span>BNP PARIBAS EL DJAZAÏR ?</span></h2>
+        <div class="linehost"></div>
+        <div class="idvclient">
+         <div class="hostrel"><img src="./img/imghost.jpg" alt="hostes"><div class="borderhost"></div><div class="shaphost"></div></div>
+          <div class="hosttext">
+            <h3>LES 4 BONNES RAISONS </br>DE CHOISIR BNP PARIBAS EL DJAZAÏR</h3>
+            <ul class="hostlist">
+              <li><i class="bi bi-list-check"></i>UN SERVICE PERSONNALISÉ</li>
+              <li><i class="bi bi-cloud-sun"></i>DES PRODUITS INNOVANTS</li>
+              <li><i class="bi bi-chat-right-text"></i>UNE BANQUE PROCHE DE VOUS</li>
+              <li><i class="bi bi-cash-coin"></i>VOS PROJETS SOUTENUS</li>
+            </ul>
+          </div>
+        </div>
+       </section>
+       <!-- +++++++++++++++++++++++++++++TÉMOIGNAGES+++++++++++++++++++++++++++ -->
+       <section class="snitche">
+          
+            <img class="winback" src="./img/image.jpg" alt="">
+            <div class="window">
+              <div class="inwindow">
+              <h3>TÉMOIGNAGES</h3>
+              <div class="linehostsnc"></div>
+              <img class="quoteup" src="img/quotation-icon-up.png" alt="">
+              <p id="tmg">J’ai été reçue à l’heure par la Conseillère qui m’a écouté puis donné dans les détails toutes les infos demandées. Elle m’a rappelée dans la semaine pour l’ouverture d’un compte pour mon entreprise et pour mes employés.</p>
+              <img class="quotedown" src="img/quotation-icon-20.png" alt="">
+              </div>
+              <div class="profilsnitch">
+                <div id="wam"><img src="./img/girlprofil.jpg" alt="">
+                <div class="propic active"><p>Nico robin</br>Age:30ans</p></div></div>
+                <div  id="man"><img src="./img/manprofil.jpg" alt="">
+                <div class="propic"><p>Marc tech</br>Age:38ans</p></div></div>
+              </div>
+            </div>
+       </section>
+       <!-- ++++++++++++++++++mapbnp+++++++++++++++++++++++++++ -->
+       <section class="mapbnp">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d203362.17808124443!2d2.9320919051967826!3d36.68326860167907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbnp%20paribas!5e0!3m2!1sen!2sdz!4v1673649179664!5m2!1sen!2sdz" width="1350" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+          <div class="frmulmap"><form class="row g-3 dide">
+            <h3>PRENDRE RENDEZ-VOUS</h3>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Nom</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Prénom</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Email</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Adjaimi-Mohammed@gmail.com">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Téléphone Portable</label>
+              <input type="number" class="form-control" id="inputAddress2" placeholder="+2136121292">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Localité</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Commune</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>Casbah</option>
+                <option>Oued Koriche</option>
+                <option>Bir Mourad Raïs</option>
+                <option>El Biar</option>
+                
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="ibutmap" type="button">PRENDRE RENDEZ-VOUS</button>
+            </div>
+          </form>
+            
+       </section>
+       <!-- ---------------------------aide---------------------------------------- -->
+       <section id="iaide" class="iaide">
+        <h3>Aide</h3>
+        <div class="linehostaide"></div>
+        <p class="aidetext">BNP Paribas met à votre disposition un service pour communiquer avec votre conseiller en LSF (Langue des Signes Française), en LPC (Langage Parlé Complété) ou en TIP (Transcription Instantanée de la Parole).</p>
+        <div class="adieopt">
+          <div class="hoverkan">
+            <i class="bi bi-credit-card-2-back"></i>
+            <h5>PERTE ET VOL</h5>
+            <p>Service Assistance Perte et vol Carte Visa : 07 70 14 09 96
+              (Service disponible 24h/7j)</p>
+              <a href="https://www.bnpparibas.dz/recharge-mobile/" target="_blank"><button class="ibutaide" type="button">PLUS D’INFOS</button></a>
+          </div>
+          <div class="hoverkan">
+            <i class="bi bi-person-exclamation"></i>
+            <h5>PROBLÈMES D’ACCÈS</h5>
+            <p>Direct Call : 3319
+
+              (du Dimanche au Jeudi de 8h30 à 17h et le samedi de 10h à 17h).</p>
+              <a href="https://www.bnpparibas.dz/recharge-mobile/" target="_blank"><button class="ibutaide" type="button">DEMANDE D’ASSISTANCE EN LIGNE</button></a>
+          </div>
+          <div class="hoverkan">
+            <i class="bi bi-chat-square-dots"></i>
+            <h5>F.A.Q</h5>
+            <p>Pour tout autre demande d’aide, veuillez consulter la foire aux questions</p>
+            <a href="https://www.bnpparibas.dz/recharge-mobile/" target="_blank"><button class="ibutaide" type="button">ACCEDER A LA F.A.Q </button></a>
+          </div>
+        </div>
+       </section>
+       <!--footer-->
+   <footer id="footer" class=" mt-5 bgl text-white d-flex-column text-center">
+    <hr class="mt-0">
+    <!--Social buttons-->
+    <div class="text-center">
+      <h4>Suivez-nous sur</h4>
+      <ul class="list-unstyled list-inline">
+        <li class="list-inline-item">
+          <a href="https://fr-fr.facebook.com/BNPParibasElDjazair/" class="sbtn btn-large mx-1 " title="Facebook">
+            <i class="fab fa-facebook-square fa-2x icon1" ></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://dz.linkedin.com/company/bnp-paribas-eldjaza%C3%AFr" class="sbtn btn-large mx-1" title="Linkedin">
+            <i class="fab fa-linkedin fa-2x icon2"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#!" class="sbtn btn-large mx-1" title="Twitter">
+            <i class="fab fa-twitter-square fa-2x icon3"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.youtube.com/@bnpparibaseldjazair7915" class="sbtn btn-large mx-1" title="Youtube">
+            <i class="fab fa-youtube-square fa-2x icon4"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="https://www.instagram.com/explore/locations/1023108008/bnp-paribas-el-djazair/?hl=fr" class="sbtn btn-large mx-1" title="Instagram">
+              <i class="fab fa-instagram fa-2x icon5"></i>
+            </a>
+          </li>
+      </ul>
+    </div>
+    <!--/.Social buttons-->
+    <hr class="mb-0">
+    <!--Footer Links-->
+    <div class="container text-left text-md-center">
+      <div class="row">
+        <!--First column-->
+        <div class="col-md-3 mx-auto shfooter">
+          <h5 class="my-2 font-weight-bold d-none d-md-block">Découvrir <br> BNP Paribas El-Djazair</h5>
+          <div class ="dec">
+          <p>
+            <a href="#!" class="text-white">Pourquoi devenir un client</a>
+          </p>
+          <p>
+            <a href="#!" class="text-white">Rencontrons-nous</a>
+          </p>
+          <p>
+            <a href="#!" class="text-white">Trouver une agence</a>
+          </p>
+        </div>
+          <div class="d-md-none title" data-target="#Product" data-toggle="collapse">
+            <div class="mt-3 font-weight-bold">Découvrir
+              <div class="float-right navbar-toggler">
+                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-up"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="list-unstyled collapse" id="Product">
+            <li><a href="#" class="text-white">Pourquoi devenir un client</a></li>
+            <li><a href="#" class="text-white">Rencontrons-nous</a></li>
+            <li><a href="#" class="text-white">Trouver une agence</a></li>
+          </ul>
+        </div>
+        <!--/.First column-->
+        <hr class="clearfix w-100 d-md-none mb-0">
+        <!--Second column-->
+        <div class="col-md-3 mx-auto shfooter">
+          <h5 class="my-2 font-weight-bold d-none d-md-block">Services</h5>
+          <div class="ser">
+          <p>
+            <a href="./notfound.html" class="text-white">Particulier</a>
+          </p>
+          <p>
+            <a href="./notfound.html" class="text-white">Professionnel</a>
+          </p>
+          <p>
+            <a href="./notfound.html" class="text-white">Entreprise</a>
+          </p>
+          <p>
+            <a href="#!" class="text-white">Pré-domiciliation</a>
+          </p>
+        </div>
+          <div class="d-md-none title" data-target="#Company" data-toggle="collapse">
+            <div class="mt-3 font-weight-bold">Services
+              <div class="float-right navbar-toggler">
+                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-up"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="list-unstyled collapse" id="Company">
+            <li><a href="./nousconaitre.html" class="text-white">Particulier</a></li>
+            <li><a href="./notfound.html" class="text-white">Professionnel</a></li>
+            <li><a href="./notfound.html" class="text-white">Entreprise</a></li>
+            <li><a href="./predom.html" class="text-white">Pré-domiciliation</a></li>
+          </ul>
+        </div>
+        <!--/.Second column-->
+        <hr class="clearfix w-100 d-md-none mb-0">
+        <!--Third column-->
+        <div class="col-md-3 mx-auto shfooter">
+            <h5 class="my-2 font-weight-bold d-none d-md-block">Aide</h5>
+            <div class="ai">
+            <p>
+              <a href="#iaide" class="text-white">Perte et vol (ou utilisation frauduleuse)</a>
+            </p>
+            <p>
+              <a href="#iaide" class="text-white">Problèmes d’accès à vos comptes</a>
+            </p>
+            <p>
+              <a href="#iaide" class="text-white">Problèmes liés à la carte</a>
+            </p>
+            <p>
+              <a href="#iaide" class="text-white">F.A.Q</a>
+            </p>
+        </div>
+          <div class="d-md-none title" data-target="#Resources" data-toggle="collapse">
+            <div class="mt-3 font-weight-bold">Aide
+              <div class="float-right navbar-toggler">
+                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-up"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="list-unstyled collapse" id="Resources">
+            <li><a href="#" class="text-white">Perte et vol (ou utilisation frauduleuse)</a></li>
+            <li><a href="#"class="text-white">Problèmes d’accès à vos comptes</a></li>
+            <li><a href=""class="text-white">Problèmes liés à la carte</a></li>
+            <li><a href="/notfound.html"class="text-white">F.A.Q</a></li>
+          </ul>
+        </div>
+        <!--/.Third column-->
+        <hr class="clearfix w-100 d-md-none mb-0">
+        <!--Fourth column-->
+        <div class="col-md-3 mx-auto shfooter">
+          <h5 class="my-2 font-weight-bold d-none d-md-block">Contact</h5>
+          <div class="con">
+          <div class="ad">
+            <i class="fa-solid fa-location-dot loc"></i>
+          <p>
+            <a href="http://bitly.ws/yX2Q" class="text-white">BNP Paribas EL Djazair Quartier d’Affaires d’Alger, Lot 1 N° I.03, Bab Ezzouar,
+                16024 Alger</a>
+          </p>
+        </div>
+        <div class="tl">
+          <p>
+            <a href="/notfound.html" class="text-white">+213 21 98 13 30</a>
+          </p>
+        </div>
+         <div class="fa">
+          <p>
+            <a href="/notfound.html" class="text-white">+213 23 92 40 68</a>
+          </p>
+        </div>
+        </div>
+          <div class="d-md-none title" data-target="#Get-Help" data-toggle="collapse">
+            <div class="mt-3 font-weight-bold">Contact
+              <div class="float-right navbar-toggler">
+                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-up"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="list-unstyled collapse" id="Get-Help">
+            <li><a href="http://bitly.ws/yX2Q" class="text-white">BNP Paribas EL Djazair Quartier d’Affaires d’Alger, Lot 1 N° I.03, Bab Ezzouar,
+                16024 Alger</a></li>
+            <li><a href="/notfound.html" class="text-white">+213 21 98 13 30</a></li>
+            <li><a href="/notfound.html" class="text-white">+213 23 92 40 68</a></li>
+    
+          </ul>
+        </div>
+        <!--/.Fourth column-->
+      </div>
+    </div>
+    <!--/.Footer Links-->
+    <hr class="mb-0">
+    <!--Copyright-->
+    <div class="py-3 text-center">
+      Copyright
+      <script>
+        document.write(new Date().getFullYear())
+      </script> <a  href="/notfound.html" class="text-white" >BNP Paribas El Djazair </a> 
+    </div>
+    <!--/.Copyright-->
+  </footer>
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <script src="js\service.js"></script>
+    <script src="itest.js"></script>
+</body>
+</html>
